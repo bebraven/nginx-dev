@@ -69,4 +69,4 @@ openssl req \
 
 4. We did the Mac Keychain Access step above to let our local computers trust the self-signed .crt
 
-5. Finally, we edited the `nginx.conf` to liston on port 443 and use the new self-signed key which you've told your local computer to trust. Just look at the platformweb config in there for an example
+5. Finally, we edited the `nginx.conf` to listen on port 443 and use the new self-signed key which you've told your local computer to trust. Just look at the platformweb config in there for an example
